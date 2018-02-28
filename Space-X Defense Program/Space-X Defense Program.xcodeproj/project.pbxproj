@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6735A18520476AE8005529FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6735A18420476AE8005529FC /* AppDelegate.swift */; };
+		6735A18720476AE8005529FC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6735A18620476AE8005529FC /* GameScene.sks */; };
+		6735A18920476AE8005529FC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6735A18820476AE8005529FC /* Actions.sks */; };
+		6735A18B20476AE8005529FC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6735A18A20476AE8005529FC /* GameScene.swift */; };
+		6735A18D20476AE8005529FC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6735A18C20476AE8005529FC /* GameViewController.swift */; };
+		6735A19020476AE8005529FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6735A18E20476AE8005529FC /* Main.storyboard */; };
+		6735A19220476AE8005529FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6735A19120476AE8005529FC /* Assets.xcassets */; };
+		6735A19520476AE8005529FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6735A19320476AE8005529FC /* LaunchScreen.storyboard */; };
+		6735A1A020476AE8005529FC /* Space_X_Defense_ProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6735A19F20476AE8005529FC /* Space_X_Defense_ProgramTests.swift */; };
+		6735A1AB20476AE9005529FC /* Space_X_Defense_ProgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6735A1AA20476AE9005529FC /* Space_X_Defense_ProgramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6735A19C20476AE8005529FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6735A17920476AE8005529FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6735A18020476AE8005529FC;
+			remoteInfo = "Space-X Defense Program";
+		};
+		6735A1A720476AE8005529FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6735A17920476AE8005529FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6735A18020476AE8005529FC;
+			remoteInfo = "Space-X Defense Program";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6735A18120476AE8005529FC /* Space-X Defense Program.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space-X Defense Program.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6735A18420476AE8005529FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6735A18620476AE8005529FC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6735A18820476AE8005529FC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		6735A18A20476AE8005529FC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6735A18C20476AE8005529FC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6735A18F20476AE8005529FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6735A19120476AE8005529FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6735A19420476AE8005529FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6735A19620476AE8005529FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6735A19B20476AE8005529FC /* Space-X Defense ProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space-X Defense ProgramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6735A19F20476AE8005529FC /* Space_X_Defense_ProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_X_Defense_ProgramTests.swift; sourceTree = "<group>"; };
+		6735A1A120476AE8005529FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6735A1A620476AE8005529FC /* Space-X Defense ProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space-X Defense ProgramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6735A1AA20476AE9005529FC /* Space_X_Defense_ProgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_X_Defense_ProgramUITests.swift; sourceTree = "<group>"; };
+		6735A1AC20476AE9005529FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6735A17E20476AE8005529FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6735A19820476AE8005529FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6735A1A320476AE8005529FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6735A17820476AE8005529FC = {
+			isa = PBXGroup;
+			children = (
+				6735A18320476AE8005529FC /* Space-X Defense Program */,
+				6735A19E20476AE8005529FC /* Space-X Defense ProgramTests */,
+				6735A1A920476AE9005529FC /* Space-X Defense ProgramUITests */,
+				6735A18220476AE8005529FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6735A18220476AE8005529FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6735A18120476AE8005529FC /* Space-X Defense Program.app */,
+				6735A19B20476AE8005529FC /* Space-X Defense ProgramTests.xctest */,
+				6735A1A620476AE8005529FC /* Space-X Defense ProgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6735A18320476AE8005529FC /* Space-X Defense Program */ = {
+			isa = PBXGroup;
+			children = (
+				6735A18420476AE8005529FC /* AppDelegate.swift */,
+				6735A18620476AE8005529FC /* GameScene.sks */,
+				6735A18820476AE8005529FC /* Actions.sks */,
+				6735A18A20476AE8005529FC /* GameScene.swift */,
+				6735A18C20476AE8005529FC /* GameViewController.swift */,
+				6735A18E20476AE8005529FC /* Main.storyboard */,
+				6735A19120476AE8005529FC /* Assets.xcassets */,
+				6735A19320476AE8005529FC /* LaunchScreen.storyboard */,
+				6735A19620476AE8005529FC /* Info.plist */,
+			);
+			path = "Space-X Defense Program";
+			sourceTree = "<group>";
+		};
+		6735A19E20476AE8005529FC /* Space-X Defense ProgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				6735A19F20476AE8005529FC /* Space_X_Defense_ProgramTests.swift */,
+				6735A1A120476AE8005529FC /* Info.plist */,
+			);
+			path = "Space-X Defense ProgramTests";
+			sourceTree = "<group>";
+		};
+		6735A1A920476AE9005529FC /* Space-X Defense ProgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6735A1AA20476AE9005529FC /* Space_X_Defense_ProgramUITests.swift */,
+				6735A1AC20476AE9005529FC /* Info.plist */,
+			);
+			path = "Space-X Defense ProgramUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6735A18020476AE8005529FC /* Space-X Defense Program */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6735A1AF20476AE9005529FC /* Build configuration list for PBXNativeTarget "Space-X Defense Program" */;
+			buildPhases = (
+				6735A17D20476AE8005529FC /* Sources */,
+				6735A17E20476AE8005529FC /* Frameworks */,
+				6735A17F20476AE8005529FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space-X Defense Program";
+			productName = "Space-X Defense Program";
+			productReference = 6735A18120476AE8005529FC /* Space-X Defense Program.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6735A19A20476AE8005529FC /* Space-X Defense ProgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6735A1B220476AE9005529FC /* Build configuration list for PBXNativeTarget "Space-X Defense ProgramTests" */;
+			buildPhases = (
+				6735A19720476AE8005529FC /* Sources */,
+				6735A19820476AE8005529FC /* Frameworks */,
+				6735A19920476AE8005529FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6735A19D20476AE8005529FC /* PBXTargetDependency */,
+			);
+			name = "Space-X Defense ProgramTests";
+			productName = "Space-X Defense ProgramTests";
+			productReference = 6735A19B20476AE8005529FC /* Space-X Defense ProgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6735A1A520476AE8005529FC /* Space-X Defense ProgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6735A1B520476AE9005529FC /* Build configuration list for PBXNativeTarget "Space-X Defense ProgramUITests" */;
+			buildPhases = (
+				6735A1A220476AE8005529FC /* Sources */,
+				6735A1A320476AE8005529FC /* Frameworks */,
+				6735A1A420476AE8005529FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6735A1A820476AE8005529FC /* PBXTargetDependency */,
+			);
+			name = "Space-X Defense ProgramUITests";
+			productName = "Space-X Defense ProgramUITests";
+			productReference = 6735A1A620476AE8005529FC /* Space-X Defense ProgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6735A17920476AE8005529FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Su Haifeng";
+				TargetAttributes = {
+					6735A18020476AE8005529FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6735A19A20476AE8005529FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6735A18020476AE8005529FC;
+					};
+					6735A1A520476AE8005529FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6735A18020476AE8005529FC;
+					};
+				};
+			};
+			buildConfigurationList = 6735A17C20476AE8005529FC /* Build configuration list for PBXProject "Space-X Defense Program" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6735A17820476AE8005529FC;
+			productRefGroup = 6735A18220476AE8005529FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6735A18020476AE8005529FC /* Space-X Defense Program */,
+				6735A19A20476AE8005529FC /* Space-X Defense ProgramTests */,
+				6735A1A520476AE8005529FC /* Space-X Defense ProgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6735A17F20476AE8005529FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6735A19020476AE8005529FC /* Main.storyboard in Resources */,
+				6735A18720476AE8005529FC /* GameScene.sks in Resources */,
+				6735A19220476AE8005529FC /* Assets.xcassets in Resources */,
+				6735A19520476AE8005529FC /* LaunchScreen.storyboard in Resources */,
+				6735A18920476AE8005529FC /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6735A19920476AE8005529FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6735A1A420476AE8005529FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6735A17D20476AE8005529FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6735A18B20476AE8005529FC /* GameScene.swift in Sources */,
+				6735A18D20476AE8005529FC /* GameViewController.swift in Sources */,
+				6735A18520476AE8005529FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6735A19720476AE8005529FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6735A1A020476AE8005529FC /* Space_X_Defense_ProgramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6735A1A220476AE8005529FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6735A1AB20476AE9005529FC /* Space_X_Defense_ProgramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6735A19D20476AE8005529FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6735A18020476AE8005529FC /* Space-X Defense Program */;
+			targetProxy = 6735A19C20476AE8005529FC /* PBXContainerItemProxy */;
+		};
+		6735A1A820476AE8005529FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6735A18020476AE8005529FC /* Space-X Defense Program */;
+			targetProxy = 6735A1A720476AE8005529FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6735A18E20476AE8005529FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6735A18F20476AE8005529FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6735A19320476AE8005529FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6735A19420476AE8005529FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6735A1AD20476AE9005529FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6735A1AE20476AE9005529FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6735A1B020476AE9005529FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space-X Defense Program/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.Space-X-Defense-Program";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6735A1B120476AE9005529FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space-X Defense Program/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.Space-X-Defense-Program";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6735A1B320476AE9005529FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space-X Defense ProgramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.Space-X-Defense-ProgramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space-X Defense Program.app/Space-X Defense Program";
+			};
+			name = Debug;
+		};
+		6735A1B420476AE9005529FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space-X Defense ProgramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.Space-X-Defense-ProgramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space-X Defense Program.app/Space-X Defense Program";
+			};
+			name = Release;
+		};
+		6735A1B620476AE9005529FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space-X Defense ProgramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.Space-X-Defense-ProgramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space-X Defense Program";
+			};
+			name = Debug;
+		};
+		6735A1B720476AE9005529FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space-X Defense ProgramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Humber.Space-X-Defense-ProgramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Space-X Defense Program";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6735A17C20476AE8005529FC /* Build configuration list for PBXProject "Space-X Defense Program" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6735A1AD20476AE9005529FC /* Debug */,
+				6735A1AE20476AE9005529FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6735A1AF20476AE9005529FC /* Build configuration list for PBXNativeTarget "Space-X Defense Program" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6735A1B020476AE9005529FC /* Debug */,
+				6735A1B120476AE9005529FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6735A1B220476AE9005529FC /* Build configuration list for PBXNativeTarget "Space-X Defense ProgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6735A1B320476AE9005529FC /* Debug */,
+				6735A1B420476AE9005529FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6735A1B520476AE9005529FC /* Build configuration list for PBXNativeTarget "Space-X Defense ProgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6735A1B620476AE9005529FC /* Debug */,
+				6735A1B720476AE9005529FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6735A17920476AE8005529FC /* Project object */;
+}
