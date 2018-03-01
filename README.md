@@ -1,4 +1,4 @@
-QuackN'BOOM by Neriah and Neenee
+QuackN'BOOM created by Neriah and Neenee
 
 Basic Description:
 	Ducks dive down to the bottom to try and eat your baked goods! The aim of the game is to protect your baked goods by hitting the ducks with bombs to kill them! 
@@ -9,4 +9,3 @@ Prerequisites:
 
 Installing:
 	To use this project, open the project folder, find the project file and double click. Xcode should open up the project. Build the code, and then you are able to run the project
-
