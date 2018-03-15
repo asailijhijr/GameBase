@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1033AC1F205B23C2009CFB11 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1033AC1E205B23C2009CFB11 /* GameObject.swift */; };
 		10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F354C22048A9F70090BCE4 /* AppDelegate.swift */; };
 		10F354C52048A9F70090BCE4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C42048A9F70090BCE4 /* GameScene.sks */; };
 		10F354C72048A9F70090BCE4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10F354C62048A9F70090BCE4 /* Actions.sks */; };
@@ -15,8 +16,6 @@
 		10F354CE2048A9F70090BCE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F354CC2048A9F70090BCE4 /* Main.storyboard */; };
 		10F354D02048A9F70090BCE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F354CF2048A9F70090BCE4 /* Assets.xcassets */; };
 		10F354D32048A9F70090BCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F354D12048A9F70090BCE4 /* LaunchScreen.storyboard */; };
-		10F354DE2048A9F70090BCE4 /* BlockusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F354DD2048A9F70090BCE4 /* BlockusTests.swift */; };
-		10F354E92048A9F70090BCE4 /* BlockusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F354E82048A9F70090BCE4 /* BlockusUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1033AC1E205B23C2009CFB11 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		10F354BF2048A9F70090BCE4 /* Blockus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blockus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F354C22048A9F70090BCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F354C42048A9F70090BCE4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -48,11 +48,7 @@
 		10F354D22048A9F70090BCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10F354D42048A9F70090BCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F354D92048A9F70090BCE4 /* BlockusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10F354DD2048A9F70090BCE4 /* BlockusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockusTests.swift; sourceTree = "<group>"; };
-		10F354DF2048A9F70090BCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F354E42048A9F70090BCE4 /* BlockusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10F354E82048A9F70090BCE4 /* BlockusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockusUITests.swift; sourceTree = "<group>"; };
-		10F354EA2048A9F70090BCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				10F354C12048A9F70090BCE4 /* Blockus */,
-				10F354DC2048A9F70090BCE4 /* BlockusTests */,
-				10F354E72048A9F70090BCE4 /* BlockusUITests */,
 				10F354C02048A9F70090BCE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,26 +106,9 @@
 				10F354CF2048A9F70090BCE4 /* Assets.xcassets */,
 				10F354D12048A9F70090BCE4 /* LaunchScreen.storyboard */,
 				10F354D42048A9F70090BCE4 /* Info.plist */,
+				1033AC1E205B23C2009CFB11 /* GameObject.swift */,
 			);
 			path = Blockus;
-			sourceTree = "<group>";
-		};
-		10F354DC2048A9F70090BCE4 /* BlockusTests */ = {
-			isa = PBXGroup;
-			children = (
-				10F354DD2048A9F70090BCE4 /* BlockusTests.swift */,
-				10F354DF2048A9F70090BCE4 /* Info.plist */,
-			);
-			path = BlockusTests;
-			sourceTree = "<group>";
-		};
-		10F354E72048A9F70090BCE4 /* BlockusUITests */ = {
-			isa = PBXGroup;
-			children = (
-				10F354E82048A9F70090BCE4 /* BlockusUITests.swift */,
-				10F354EA2048A9F70090BCE4 /* Info.plist */,
-			);
-			path = BlockusUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1033AC1F205B23C2009CFB11 /* GameObject.swift in Sources */,
 				10F354C92048A9F70090BCE4 /* GameScene.swift in Sources */,
 				10F354CB2048A9F70090BCE4 /* GameViewController.swift in Sources */,
 				10F354C32048A9F70090BCE4 /* AppDelegate.swift in Sources */,
@@ -280,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F354DE2048A9F70090BCE4 /* BlockusTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F354E92048A9F70090BCE4 /* BlockusUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
